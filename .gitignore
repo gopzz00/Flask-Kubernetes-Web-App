@@ -1,0 +1,16 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Ignore Docker build files
+*.log
+*.tgz
+*.tar.gz
+
+# Ignore Minikube VM (if used locally)
+.miniKube
+
+# Ignore other sensitive files
+.env
